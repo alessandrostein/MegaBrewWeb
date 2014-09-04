@@ -1,0 +1,16 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	<endpoint name="pedidos"
+		implementation="br.com.magabrew.service.PedidosService"
+			url-pattern = "/pedidos" />		
+			
+		<endpoint name="clientes"
+		implementation="br.com.magabrew.service.ClientesService"
+			url-pattern = "/clientes" />	
+			
+		<endpoint name="produtos"
+		implementation="br.com.magabrew.service.ProdutosService"
+			url-pattern = "/produtos" />						
+</endpoints> 
+
+84183077
+
