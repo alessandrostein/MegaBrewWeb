@@ -11,6 +11,3 @@
 		implementation="br.com.magabrew.service.ProdutosService"
 			url-pattern = "/produtos" />						
 </endpoints> 
-
-84183077
-
